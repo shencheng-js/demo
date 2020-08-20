@@ -21,7 +21,7 @@ public class JDBC {
 			System.out.println("连接成功");
 			//创建执行环境
 			java.sql.Statement statement = conn.createStatement();
-			ResultSet result =  statement.executeQuery("select * from user");
+			ResultSet result =  statement.executeQuery("show tables");
 			while (result.next()) {
 				System.out.println(result.getString("uname"));
 				
