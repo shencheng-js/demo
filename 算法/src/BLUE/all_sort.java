@@ -1,24 +1,37 @@
 package BLUE;
 
-import java.util.Vector;
+import java.io.*;
+import java.util.*;
 
 public class all_sort {
     static int  count = 0;
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws IOException {
         Vector<Character> source = new Vector<Character>();
         Vector<Character> result = new Vector<Character>();
-        for (int i = 0; i < 10; i++) {
-            source.add((char) (i+65));
+
+        String temp = "erda";
+        char[] chars = temp.toCharArray();
+
+        for (int i = 0; i < chars.length; i++) {
+            source.add(chars[i]);
         }
-        sort(source,result);
-        System.out.println(count);
+
+
+
+
+        //sort(source,result);
+        //System.out.println(count);
+        System.out.println("GOOD BYE~~~");
     }
+
+
 
 
     public static void sort(Vector source,Vector result){
         if (source.size()==0){
-            //print(result);
-            count++;
+           print(result);
+            //count++;
         }
         else {
             for (int i = 0; i < source.size(); i++) {
@@ -32,10 +45,12 @@ public class all_sort {
         }
     }
     public static void print(Vector result) {
+        StringBuffer temp = new StringBuffer();
         for (int i = 0; i < result.size(); i++) {
-            System.out.print(result.elementAt(i));
+            temp.append(result.elementAt(i));
         }
-        System.out.print("\n");
+//       System.out.println(temp);
+
         return;
     }
 
