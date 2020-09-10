@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e0b179b-14e9-46f5-841f-2a45d8f87ae4" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../算法/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/FlowerNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/Formula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/Phone_number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/Question3UnAmendment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/all_sort1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/com18_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/demo13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/demo14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/demo16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/demo17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/demo18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/demo19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/demo19plus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/demo20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/demo21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/demo22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/demo23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../算法/src/BLUE/testregex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../算法/src/BLUE/all_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/BLUE/all_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../算法/src/BLUE/newtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/BLUE/newtest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gad2sT7kCZCVm96del8iPBnnzN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Leetcode" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e0b179b-14e9-46f5-841f-2a45d8f87ae4" name="默认更改列表" comment="" />
+      <created>1598356432696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598356432696</updated>
+      <workItem from="1598356439419" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="298" y="64" key="FileChooserDialogImpl" timestamp="1598356470824">
+      <screen x="0" y="0" width="1035" height="617" />
+    </state>
+    <state x="298" y="64" key="FileChooserDialogImpl/0.0.1035.617@0.0.1035.617" timestamp="1598356470824" />
+  </component>
+</project>

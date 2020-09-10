@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/eclipse-workspace/Clock/Clock.iml" filepath="$USER_HOME$/eclipse-workspace/Clock/Clock.iml" />
+      <module fileurl="file://$USER_HOME$/eclipse-workspace/DEMO/DEMO.iml" filepath="$USER_HOME$/eclipse-workspace/DEMO/DEMO.iml" />
+      <module fileurl="file://$USER_HOME$/eclipse-workspace/Leetcode/Leetcode.iml" filepath="$USER_HOME$/eclipse-workspace/Leetcode/Leetcode.iml" />
+      <module fileurl="file://$USER_HOME$/eclipse-workspace/StudentMS/StudentMS.iml" filepath="$USER_HOME$/eclipse-workspace/StudentMS/StudentMS.iml" />
+      <module fileurl="file://$USER_HOME$/eclipse-workspace/blackHorse/blackHorse.iml" filepath="$USER_HOME$/eclipse-workspace/blackHorse/blackHorse.iml" />
+      <module fileurl="file://$USER_HOME$/eclipse-workspace/算法/算法.iml" filepath="$USER_HOME$/eclipse-workspace/算法/算法.iml" />
+    </modules>
+  </component>
+</project>
