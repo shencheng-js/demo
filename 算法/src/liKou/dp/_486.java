@@ -1,4 +1,4 @@
-package liKou;
+package liKou.dp;
 
 /**
  * @author sc
@@ -20,8 +20,7 @@ class Solution2 {
                 dp[i][j] = Math.max(nums[i] - dp[i+1][j],nums[j] - dp[i][j-1]);
             }
         }
-        if (dp[0][len-1]>=0)return true;
-        else return false;
+        return dp[0][len - 1] >= 0;
     }
 
 }

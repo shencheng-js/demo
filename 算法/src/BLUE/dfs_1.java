@@ -1,4 +1,4 @@
-package DEMO;
+package BLUE;
 
 /**
  * @author sc

@@ -1,4 +1,4 @@
-package liKou;
+package liKou.simple;
 
 /**
  * @author sc

@@ -1,4 +1,4 @@
-package liKou;
+package liKou.kmp;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -7,6 +7,11 @@ import java.util.Set;
  * @author sc
  * @date 2020/8/29
  **/
+
+
+/**
+ * 给定一个字符串 s，你可以通过在字符串前面添加字符将其转换为回文串。找到并返回可以用这种方式转换的最短回文串。
+ */
 public class _214 {
 }
 
@@ -39,10 +44,7 @@ class olution {
     }
 
     private boolean findSymmetrytwo(String temp,int index) {
-        if ((index+1)<temp.length()&&temp.charAt(index) == temp.charAt(index-1)){
-            return true;
-        }
-        return false;
+        return (index + 1) < temp.length() && temp.charAt(index) == temp.charAt(index - 1);
     }
 
     private boolean differentChar(String temp) {
@@ -50,8 +52,7 @@ class olution {
         for (int i = 0; i < temp.length(); i++) {
             judge.add(temp.charAt(i));
         }
-        if (judge.size() == temp.length()) return true;
-        else return false;
+        return judge.size() == temp.length();
     }
 
     private boolean findSymmetry(String temp, int index) {
@@ -64,11 +65,7 @@ class olution {
             left--;
             right++;
         }
-        if (left == -1) {
-            return true;
-        } else {
-            return false;
-        }
+        return left == -1;
     }
 
     private static String headaxis(String temp) {

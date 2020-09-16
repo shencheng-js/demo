@@ -1,4 +1,4 @@
-package liKou;
+package liKou.treeQuestion;
 
 /**
  * @author sc
@@ -52,7 +52,7 @@ class Solution {
     }
 
 
-    public static void find_downNode(TreeNode root, int foot,List<Integer> ret) {
+    public static void find_downNode(TreeNode root, int foot, List<Integer> ret) {
         if (root == null) {
             return;
         }
@@ -60,12 +60,12 @@ class Solution {
             ret.add(root.val);
             return;
         }
-        find_downNode(root.left, foot - 1,ret);
-        find_downNode(root.right, foot - 1,ret);
+        find_downNode(root.left, foot - 1, ret);
+        find_downNode(root.right, foot - 1, ret);
     }
 
 
-    private static void find_upNode(TreeNode root, TreeNode nowroot, int foot,List<Integer> ret) {
+    private static void find_upNode(TreeNode root, TreeNode nowroot, int foot, List<Integer> ret) {
         if (foot == 0) {
             ret.add(nowroot.val);
             return;

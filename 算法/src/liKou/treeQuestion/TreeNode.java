@@ -1,10 +1,9 @@
-package liKou;
+package liKou.treeQuestion;
 
 /**
  * @author sc
- * @date 2020/8/28
+ * @date 2020/9/16
  **/
-
 public class TreeNode {
     int val;
     TreeNode left;

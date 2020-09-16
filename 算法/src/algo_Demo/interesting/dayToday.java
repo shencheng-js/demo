@@ -1,4 +1,4 @@
-package BLUE;
+package algo_Demo.interesting;
 
 /**
  * @author sc
@@ -21,21 +21,21 @@ import java.util.Scanner;
 
 
 //有bug，当遇见闰年时计算天数差值会差一天
-    //四种情况，但是不想算了，可以直接利用Java的time计算
+//四种情况，但是不想算了，可以直接利用Java的time计算
 
 
 //新解决方案：年计算照旧
-    //月份及日计算其到年底要多少天后相减
-public class demo19{
+//月份及日计算其到年底要多少天后相减
+public class dayToday {
 
     public static void main(String[] args) {
-        String [] start = new String[3];
-        String [] end = new String[3];
+        String[] start = new String[3];
+        String[] end = new String[3];
 
         start = scan();
         end = scan();
 
-        System.out.println(calculate(start,end));
+        System.out.println(calculate(start, end));
 
     }
 
@@ -88,10 +88,7 @@ public class demo19{
     }
 
     private static boolean isLeap(int i) {
-        if (i%400==0||(i%4==0&&i%100!=0)) {
-            return true;
-        }
-            return false;
+        return i % 400 == 0 || (i % 4 == 0 && i % 100 != 0);
     }
 
 

@@ -1,4 +1,4 @@
-package liKou;
+package liKou.treeQuestion;
 
 /**
  * @author sc

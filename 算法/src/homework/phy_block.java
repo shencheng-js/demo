@@ -1,4 +1,4 @@
-package replace;
+package homework;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,16 +6,16 @@ import java.util.Map;
 /*
  * 构筑一个index*block_nums大小的矩阵用以记录其变化
  * 内部算法可以从表述运行的类中剥离出更方便,且赋值函数重复多次亦可剥离
- * 
+ *
  */
 public class phy_block {
 	int index = 1;// 描述当前运行至步数,初始为1
 	int block_nums = 0;// 描述物理块个数
 	int length = 0;//
-	int block[][];
+	int[][] block;
 	int[] serials;
 
-//	
+	//
 	public phy_block(int kuai, int length, int[] a) {
 		// TODO 自动生成的构造函数存根
 		this.block_nums = kuai;
@@ -24,8 +24,9 @@ public class phy_block {
 		serials = new int[this.length];
 		serials = a;
 	}
-/*
- * opt利用了向后找,利用了map存储当前内存块的存储情况,可调用查看,同时利用了一个100大小的数组辅助存储查找状态,0为未经过查找,
+
+	/*
+	 * opt利用了向后找,利用了map存储当前内存块的存储情况,可调用查看,同时利用了一个100大小的数组辅助存储查找状态,0为未经过查找,
  */
 	public void OPT() {
 
