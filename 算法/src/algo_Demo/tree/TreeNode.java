@@ -1,10 +1,13 @@
-package liKou;
+package algo_Demo.tree;
 
 /**
  * @author sc
- * @date 2020/8/28
+ * @date 2020/9/16
  **/
 
+/**
+ * 构建树结点，convert返回由提供的数组构造的树的root
+ */
 public class TreeNode {
     int val;
     TreeNode left;
@@ -54,3 +57,4 @@ public class TreeNode {
     }
 
 }
+
