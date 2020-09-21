@@ -29,8 +29,6 @@ public class Traverse {
         while (!stack.isEmpty()) {
             TreeNode temp = stack.pop();
             ret.add(temp.val);
-
-
             if (temp.right != null) {
                 stack.push(temp.right);
             }
@@ -42,8 +40,7 @@ public class Traverse {
         return ret;
     }//先序遍历
 
-
-    private static List<Integer> inOrder(TreeNode root) {
+    public static List<Integer> inOrder(TreeNode root) {
         if (root == null) return null;
         Stack<TreeNode> stack = new Stack<TreeNode>();
         List<Integer> ret = new ArrayList<Integer>();

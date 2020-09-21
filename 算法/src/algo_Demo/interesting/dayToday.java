@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 计算至1949/10/1多少天   1.0版
  * 可扩展至计算任意两天间距离
  * 暂时认定前后顺序不出错，即一前一后
- *
+ * <p>
  * 25894至今
  */
 
@@ -40,8 +40,8 @@ public class dayToday {
     }
 
     private static int calculate(String[] start, String[] end) {
-        int[][]leap = {{31,29,31,30,31,30,31,31,30,31,30,31},
-                {31,28,31,30,31,30,31,31,30,31,30,31}};
+        int[][] leap = {{31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31},
+                {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}};
         boolean mflag = true;
         boolean dflag = true;
 
@@ -55,36 +55,35 @@ public class dayToday {
 
         int count = 0;
         for (int i = syear; i < eyear; i++) {
-            if (isLeap(i)){
-                count +=366;
-            }
-            else {
-                count +=365;
+            if (isLeap(i)) {
+                count += 366;
+            } else {
+                count += 365;
             }
         }
 
-        int snum=0;
-        int endnum=0;
+        int snum = 0;
+        int endnum = 0;
         int flag = 1;
-        if (isLeap(syear)){
+        if (isLeap(syear)) {
             flag = 0;
         }
         for (int i = smonth; i < 12; i++) {
-            snum+=leap[flag][i];
+            snum += leap[flag][i];
         }
-        snum+=sday;
-        if (isLeap(eyear)){
+        snum += sday;
+        if (isLeap(eyear)) {
             flag = 0;
-        }else {
+        } else {
             flag = 1;
         }
         for (int i = smonth; i < 12; i++) {
-            endnum+=leap[flag][i];
+            endnum += leap[flag][i];
         }
-        endnum+=eday;
+        endnum += eday;
 
-        System.out.println(endnum-snum);
-        return count+(endnum-snum);
+        System.out.println(endnum - snum);
+        return count + (endnum - snum);
     }
 
     private static boolean isLeap(int i) {
@@ -95,9 +94,9 @@ public class dayToday {
     private static String[] scan() {
         Scanner in = new Scanner(System.in);
         String temp = in.nextLine();
-        String [] temparray = new String[3];
+        String[] temparray = new String[3];
         temparray = temp.split("-");
-        return  temparray;
+        return temparray;
     }
 
 }

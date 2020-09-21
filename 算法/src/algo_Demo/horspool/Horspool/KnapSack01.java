@@ -1,7 +1,8 @@
 package algo_Demo.horspool.Horspool;
+
 public class KnapSack01 {
     private static int[][] memo;
-    
+
     /**
      * 动态规划
      * 解决背包问题的递归函数
@@ -30,7 +31,7 @@ public class KnapSack01 {
         }
         //添加子问题的解，便于下次直接使用
         memo[index][capacity] = res;
-        
+
         return res;
     }
 
@@ -41,11 +42,11 @@ public class KnapSack01 {
     }
 
     public static void main(String[] args) {
-    	int[] v = {3,5,6,7,10,15,18};
-        int[] w = {1,3,1,7,2,5,4};
+        int[] v = {3, 5, 6, 7, 10, 15, 18};
+        int[] w = {1, 3, 1, 7, 2, 5, 4};
 
 
         System.out.println(knapSack(w, v, 15));
-        
+
     }
 }

@@ -28,7 +28,7 @@ public class File_world {
 
         Iterator<T> iterator = data.iterator();
 
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             fileWriter.write((char[]) iterator.next());
             fileWriter.write("\n");
             fileWriter.flush();
@@ -41,15 +41,15 @@ public class File_world {
         FileReader fileReader = new FileReader("E:\\fileTest\\kaoyan.txt");
         System.out.println("开始读入~~~");
         Scanner filein = new Scanner(fis);
-        while (filein.hasNext()){
+        while (filein.hasNext()) {
             String temp = filein.nextLine();
             StringBuffer temp1 = new StringBuffer();
             for (int i = 0; i < temp.length(); i++) {
-                if (temp.charAt(i) == ' '){
+                if (temp.charAt(i) == ' ') {
                     //System.out.println(temp1.toString());
                     data.add(temp1.toString());
                     break;
-                }else {
+                } else {
                     temp1.append(Character.toLowerCase(temp.charAt(i)));
                 }
             }

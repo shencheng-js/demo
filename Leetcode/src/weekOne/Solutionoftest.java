@@ -1,17 +1,13 @@
 package weekOne;
 
-import java.awt.List;
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class Solutionoftest {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 //		Solution aSolution = new Solution();
-		int a[] = {1,0};
-		System.out.println();
-		
-	}
+        int[] a = {1, 0};
+        System.out.println();
+
+    }
 }
 /*
 class Solution {

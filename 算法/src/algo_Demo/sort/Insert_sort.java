@@ -14,10 +14,10 @@ public class Insert_sort {
                 nums[j + 1] = nums[j];
                 j--;
             }
-            nums[j+1]=front;
+            nums[j + 1] = front;
         }
         for (int i = 0; i < nums.length; i++) {
-            System.out.print(nums[i]+" ");
+            System.out.print(nums[i] + " ");
 
         }
     }

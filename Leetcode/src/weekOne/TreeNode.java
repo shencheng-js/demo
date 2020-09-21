@@ -3,11 +3,12 @@ package weekOne;
 import java.util.Scanner;
 
 public class TreeNode {
-	public static void main(String[] args) {
-		myway aSolution = new myway();
-		aSolution.isMatch("", "weqwe.eqwe.dasd*weqw");
-	}
+    public static void main(String[] args) {
+        myway aSolution = new myway();
+        aSolution.isMatch("", "weqwe.eqwe.dasd*weqw");
+    }
 }
+
 /*
 class Solution {
 	public int maxProduct(int[] nums) {
@@ -42,11 +43,11 @@ class Solution {
 class myway {
     public boolean isMatch(String s, String p) {
         Scanner read_p = new Scanner(p);
-        String replaceString = new String(p);
-        String aString= replaceString.replace( '.','*');
+        String replaceString = p;
+        String aString = replaceString.replace('.', '*');
         System.out.println(p);
         System.out.println(replaceString);
         System.out.println(aString);
-		return false;
+        return false;
     }
 }

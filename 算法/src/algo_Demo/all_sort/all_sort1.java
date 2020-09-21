@@ -9,8 +9,9 @@ import java.util.List;
  **/
 public class all_sort1 {
     static List<Integer> result = new ArrayList<>();
+
     public static void main(String[] args) {
-        int[] ints = {1, 2, 3,4,5,6,7,8,9};
+        int[] ints = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         mysort(ints, 0, ints.length);
     }
 
@@ -23,18 +24,7 @@ public class all_sort1 {
 
     private static void mysort(int[] temp, int start, int target) {
         if (start == target) {
-            int a1 = temp[0]*10+temp[1];
-            int a2 = temp[2]*100+temp[3]*10+temp[4];
-            int b1 = temp[0]*100+temp[3]*10+temp[1];
-            int b2 = temp[2]*10+temp[4];
-            if (a1*a2==b1*b2){
-                if (!result.contains(a1)){
-                    System.out.println(a1+"*"+a2+"="+b1+"*"+b2);
-                    result.add(a1);
-                }
-
-            }
-          //  System.out.println();
+            //  System.out.println();
         }
 
         for (int i = start; i < temp.length; i++) {

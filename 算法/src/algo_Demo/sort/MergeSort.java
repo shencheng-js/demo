@@ -17,28 +17,28 @@ public class MergeSort {
     }
 
     private static int[] merge(int[] temp, int left, int right) {
-        if (left>=right){
+        if (left >= right) {
             return new int[]{temp[left]};
         }
-        int mid = (left+right)/2;
-        int []leftints = merge(temp,left,mid);
-        int []rightints = merge(temp,mid+1,right);
+        int mid = (left + right) / 2;
+        int[] leftints = merge(temp, left, mid);
+        int[] rightints = merge(temp, mid + 1, right);
 
-        int []ret = new int[right - left + 1];
-        int retindex = 0,leftindex = 0,rightindex = 0;
+        int[] ret = new int[right - left + 1];
+        int retindex = 0, leftindex = 0, rightindex = 0;
 
-        while (leftindex<leftints.length&&rightindex<rightints.length){
-            if (leftints[leftindex]<rightints[rightindex]){
+        while (leftindex < leftints.length && rightindex < rightints.length) {
+            if (leftints[leftindex] < rightints[rightindex]) {
                 ret[retindex++] = leftints[leftindex++];
 
-            }else {
+            } else {
                 ret[retindex++] = rightints[rightindex++];
             }
         }
-        while (leftindex<leftints.length){
+        while (leftindex < leftints.length) {
             ret[retindex++] = leftints[leftindex++];
         }
-        while (rightindex<rightints.length){
+        while (rightindex < rightints.length) {
             ret[retindex++] = rightints[rightindex++];
         }
         return ret;

@@ -18,12 +18,11 @@ public class KMP_demo {
             if (k == -1 || temp.charAt(i) == temp.charAt(k)) {
                 i++;
                 k++;
-                if(temp.charAt(i) == temp.charAt(k))//当两个字符相同时，就跳过
+                if (temp.charAt(i) == temp.charAt(k))//当两个字符相同时，就跳过
                     ret[i] = ret[k];
                 else//找不到最长，即为k==-1时
                     ret[i] = k;
-            } else
-                {
+            } else {
                 k = ret[k];
             }
         }

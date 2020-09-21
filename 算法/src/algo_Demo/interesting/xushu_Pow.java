@@ -35,8 +35,7 @@ public class xushu_Pow {
         PrintStream out = new PrintStream(System.out);
 
         System.setOut(ps);
-        System.out.println(a+"+"+b+"i");
-
+        System.out.println(a + "+" + b + "i");
 
 
     }
