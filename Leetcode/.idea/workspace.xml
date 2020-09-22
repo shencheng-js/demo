@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ad54a1f-a1fa-4e1f-a5c2-c4d014cb308f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_124.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/answer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1gad7aNCR5zXXPNCF2j4web7wat" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -69,46 +71,78 @@
       <updated>1598356470921</updated>
       <workItem from="1598356476694" duration="16000" />
       <workItem from="1600657969989" duration="3678000" />
-      <workItem from="1600759550883" duration="1043000" />
+      <workItem from="1600759550883" duration="1927000" />
+      <workItem from="1600773475618" duration="3795000" />
     </task>
+    <task id="LOCAL-00001" summary="调整位置">
+      <created>1600760646155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600760646155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="调整位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整位置" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="250" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1600658155769">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="461" y="250" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1218.720@0.0.1218.720" timestamp="1600658155769" />
+    <state x="217" y="0" key="CommitChangelistDialog2" timestamp="1600760644636">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="217" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1600760644636" />
     <state x="351" y="75" key="FileChooserDialogImpl" timestamp="1600674934353">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="298" y="64" key="FileChooserDialogImpl/0.0.1035.617@0.0.1035.617" timestamp="1598356489800" />
     <state x="351" y="75" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1600674934353" />
-    <state width="1175" height="176" key="GridCell.Tab.0.bottom" timestamp="1600675295672">
+    <state width="1175" height="176" key="GridCell.Tab.0.bottom" timestamp="1600763878292">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.0.bottom/0.0.1218.720@0.0.1218.720" timestamp="1600675295672" />
-    <state width="1175" height="176" key="GridCell.Tab.0.center" timestamp="1600675295671">
+    <state width="1175" height="176" key="GridCell.Tab.0.bottom/0.0.1218.720@0.0.1218.720" timestamp="1600763878292" />
+    <state width="1175" height="176" key="GridCell.Tab.0.center" timestamp="1600763878292">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.0.center/0.0.1218.720@0.0.1218.720" timestamp="1600675295671" />
-    <state width="1175" height="176" key="GridCell.Tab.0.left" timestamp="1600675295671">
+    <state width="1175" height="176" key="GridCell.Tab.0.center/0.0.1218.720@0.0.1218.720" timestamp="1600763878292" />
+    <state width="1175" height="176" key="GridCell.Tab.0.left" timestamp="1600763878291">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.0.left/0.0.1218.720@0.0.1218.720" timestamp="1600675295671" />
-    <state width="1175" height="176" key="GridCell.Tab.0.right" timestamp="1600675295671">
+    <state width="1175" height="176" key="GridCell.Tab.0.left/0.0.1218.720@0.0.1218.720" timestamp="1600763878291" />
+    <state width="1175" height="176" key="GridCell.Tab.0.right" timestamp="1600763878292">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.0.right/0.0.1218.720@0.0.1218.720" timestamp="1600675295671" />
+    <state width="1175" height="176" key="GridCell.Tab.0.right/0.0.1218.720@0.0.1218.720" timestamp="1600763878292" />
     <state x="90" y="0" key="SettingsEditor" timestamp="1600760596728">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1600760596728" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1600760656131">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1600760656131" />
+    <state x="392" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600760844463">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="392" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1218.720@0.0.1218.720" timestamp="1600760844463" />
     <state x="303" y="151" key="git4idea.merge.GitPullDialog" timestamp="1600658015814">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="303" y="151" key="git4idea.merge.GitPullDialog/0.0.1218.720@0.0.1218.720" timestamp="1600658015814" />
+    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1600773637467">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1600773637467" />
   </component>
 </project>
