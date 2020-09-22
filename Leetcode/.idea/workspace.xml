@@ -2,90 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ad54a1f-a1fa-4e1f-a5c2-c4d014cb308f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/tree/bin_Search_tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_124.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/NumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weekOne/NumArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weekOne/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weekOne/Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/Solutionoftest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weekOne/Solutionoftest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weekOne/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weekOne/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/full_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weekOne/full_Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/full_Array_A.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weekOne/full_Array_A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/myway.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weekOne/myway.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/numberSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weekOne/numberSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/segmentTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weekOne/segmentTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weektwo/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weektwo/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weektwo/doublepoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weektwo/doublepoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weektwo/minium_square.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/weektwo/minium_square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/Solutionoftest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weekOne/Solutionoftest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weekOne/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weekOne/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/full_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weekOne/full_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/full_Array_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weekOne/full_Array_A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/numberSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weekOne/numberSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/segmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weekOne/segmentTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weektwo/doublepoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/weektwo/doublepoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blackHorse/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blackHorse/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blackHorse/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blackHorse/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blackHorse/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blackHorse/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blackHorse/bin/blackHorse_7_6/Fu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blackHorse/bin/blackHorse_7_6/zi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blackHorse/src/blackHorse_7_6/Fu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blackHorse/src/blackHorse_7_6/zi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/BLUE/demo19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/BLUE/demo19plus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/DEMO/dfs_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/liKou/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/liKou/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/liKou/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/liKou/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/liKou/_214.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/liKou/_452$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/liKou/_452.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/liKou/_486.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/liKou/_557.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/liKou/_863.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/liKou/monkey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/liKou/olution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/liKou/shortestPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/bin/replace/phy_block.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/all_sort/all_sort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/all_sort/all_sort1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/copy/Complete_knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/copy/Complete_knapsack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/copy/Greedy_bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/copy/Greedy_bag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/copy/KnapSack01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/copy/KnapSack01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/dfs/_216.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/dfs/_216.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/horspool/Horspool/KnapSack01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/horspool/Horspool/KnapSack01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/horspool/Horspool/horspool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/horspool/Horspool/horspool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/interesting/File_world.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/interesting/File_world.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/interesting/dayToday.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/interesting/dayToday.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/interesting/xushu_Pow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/interesting/xushu_Pow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/sort/Insert_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/sort/Insert_sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/sort/count_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/sort/count_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/stringalgo/KMP_demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/stringalgo/KMP_demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/stringalgo/数数.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/stringalgo/数数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/tree/Traverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/tree/Traverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/liKou/dfs/_79.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/liKou/dp/_486.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/liKou/hard/shortestPath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/liKou/kmp/_214.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/liKou/simple/_557.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/liKou/treeQuestion/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/liKou/treeQuestion/_226.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/liKou/treeQuestion/_637.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/liKou/treeQuestion/_863.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/liKou/treeQuestion/_94.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -101,10 +31,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../算法" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="_538" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -127,7 +58,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -138,6 +69,7 @@
       <updated>1598356470921</updated>
       <workItem from="1598356476694" duration="16000" />
       <workItem from="1600657969989" duration="3678000" />
+      <workItem from="1600759550883" duration="1043000" />
     </task>
     <servers />
   </component>
@@ -170,10 +102,10 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state width="1175" height="176" key="GridCell.Tab.0.right/0.0.1218.720@0.0.1218.720" timestamp="1600675295671" />
-    <state x="90" y="0" key="SettingsEditor" timestamp="1600658322978">
+    <state x="90" y="0" key="SettingsEditor" timestamp="1600760596728">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1600658322978" />
+    <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1600760596728" />
     <state x="303" y="151" key="git4idea.merge.GitPullDialog" timestamp="1600658015814">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
