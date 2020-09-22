@@ -40,17 +40,17 @@ public class _105 {
         if (preLeft > preRight) {
             return null;
         }
-        int preorder_root = preLeft;
 
-        int genIndex = map.get(preorder[preorder_root]);//中序遍历得到根节点位置
+        int nowIndex = preLeft;
+        int inRoot = map.get(preorder[nowIndex]);
+        int leftTreeSum = inRoot - inLeft;
 
+        TreeNode root = new TreeNode(preorder[nowIndex]);
 
-        int leftTree = genIndex - inLeft;//左子树的长度
-        TreeNode nowGen = new TreeNode(preorder[genIndex]);
-        nowGen.left = makeBtree(preorder, inorder, preLeft + 1, preRight + leftTree, inLeft, genIndex - 1);
-        nowGen.right = makeBtree(preorder, inorder, preLeft + leftTree + 1, preRight, genIndex + 1, inRight);
+        root.left = makeBtree(preorder, inorder, preLeft + 1, preLeft + leftTreeSum, inLeft, inLeft + leftTreeSum - 1);
+        root.right = makeBtree(preorder, inorder, preLeft + leftTreeSum + 1, preRight, inLeft + leftTreeSum + 1, inRight);
 
-        return nowGen;
+        return root;
     }
 }
 
