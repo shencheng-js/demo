@@ -20,7 +20,7 @@ public class _106 {
     int post_idx;
     /* Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 
-     public TreeNode buildTree(int[] inorder, int[] postorder) {
+     public Tree.TreeNode buildTree(int[] inorder, int[] postorder) {
          int len = inorder.length;
          for (int i = 0; i < len; i++) {
              map.put(inorder[i], i);
@@ -28,7 +28,7 @@ public class _106 {
          return Recursion(inorder, postorder, 0, len - 1, 0, len - 1);
      }
 
-     private TreeNode Recursion(int[] inorder, int[] postorder, int inleft, int inright, int posleft, int posright) {
+     private Tree.TreeNode Recursion(int[] inorder, int[] postorder, int inleft, int inright, int posleft, int posright) {
          if (posleft > posright) return null;
 
          int rootIndex = map.get(postorder[posright]);
@@ -36,7 +36,7 @@ public class _106 {
          int leftTree = rootIndex - inleft;
 
          System.out.println("这一轮的根是： "+postorder[posright]+"  "+leftTree+"   "+rootIndex);
-         TreeNode temp = new TreeNode(postorder[posright]);
+         Tree.TreeNode temp = new Tree.TreeNode(postorder[posright]);
          if (leftTree<=0) return temp;
            temp.left = Recursion(inorder, postorder, inleft, inleft + leftTree, posleft, posleft + leftTree-1);
          temp.right = Recursion(inorder, postorder, inleft + leftTree + 1, inright, posleft + leftTree + 1, posright--);

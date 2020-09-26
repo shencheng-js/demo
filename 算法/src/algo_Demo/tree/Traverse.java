@@ -92,14 +92,10 @@ public class Traverse {
             if (temp.left != null) {
                 queue.add(temp.left);
             }
-
             if (temp.right != null) {
                 queue.add(temp.right);
             }
-
         }
-
-
         return ret;
     }
 }
