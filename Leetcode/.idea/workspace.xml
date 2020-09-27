@@ -1,43 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ad54a1f-a1fa-4e1f-a5c2-c4d014cb308f" name="默认更改列表" comment="Tree">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_103.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_109.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_110.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_113.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_118.java" afterDir="false" />
+    <list default="true" id="0ad54a1f-a1fa-4e1f-a5c2-c4d014cb308f" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_235.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/NumArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/Solutionoftest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/full_Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/full_Array_A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/myway.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/numberSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weekOne/segmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weektwo/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weektwo/doublepoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/weektwo/minium_square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/liKou/treeQuestion/_106.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_106.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/Solutionoftest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/full_Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/full_Array_A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/numberSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weekOne/segmentTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weektwo/doublepoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weektwo/minium_square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../算法/src/algo_Demo/tree/Traverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../算法/src/algo_Demo/tree/Traverse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +109,8 @@
       <workItem from="1601103046331" duration="1533000" />
       <workItem from="1601106308542" duration="2171000" />
       <workItem from="1601111652756" duration="4535000" />
+      <workItem from="1601117599902" duration="57000" />
+      <workItem from="1601205030478" duration="970000" />
     </task>
     <task id="LOCAL-00001" summary="调整位置">
       <created>1600760646155</created>
@@ -186,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601044997610</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tree">
+      <created>1601117606166</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601117606166</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Tree">
+      <created>1601117635378</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601117635378</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,15 +194,15 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="340" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1218.720@0.0.1218.720" timestamp="1601106660950" />
-    <state x="217" y="0" key="CommitChangelistDialog2" timestamp="1601117605331">
+    <state x="217" y="0" key="CommitChangelistDialog2" timestamp="1601117634467">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="217" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1601117605331" />
-    <state x="351" y="75" key="FileChooserDialogImpl" timestamp="1601117521257">
+    <state x="217" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1601117634467" />
+    <state x="351" y="75" key="FileChooserDialogImpl" timestamp="1601205041254">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="298" y="64" key="FileChooserDialogImpl/0.0.1035.617@0.0.1035.617" timestamp="1598356489800" />
-    <state x="351" y="75" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1601117521257" />
+    <state x="351" y="75" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1601205041254" />
     <state width="1175" height="176" key="GridCell.Tab.0.bottom" timestamp="1601117523288">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
@@ -241,10 +223,10 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1600760596728" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1601045004380">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1601117643986">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1601045004380" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1601117643986" />
     <state x="93" y="93" width="1033" height="535" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1601106980604">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
