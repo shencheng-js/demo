@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ad54a1f-a1fa-4e1f-a5c2-c4d014cb308f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/test/testQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_117.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/liKou/dfs/_79.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/dfs/_79.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/liKou/hard/shortestPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/hard/shortestPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/liKou/kmp/olution.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/kmp/olution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/liKou/simple/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/simple/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/liKou/treeQuestion/_102.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/treeQuestion/_102.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/liKou/treeQuestion/_104.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/treeQuestion/_104.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/liKou/treeQuestion/_110.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/treeQuestion/_110.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/liKou/treeQuestion/_118.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/treeQuestion/_118.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/liKou/treeQuestion/_538.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/treeQuestion/_538.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +52,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application._102">
+  <component name="RunManager" selected="Application._117">
     <configuration name="_102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liKou.treeQuestion._102" />
       <module name="Leetcode" />
@@ -68,6 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_117" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liKou.treeQuestion._117" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liKou.treeQuestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_538" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liKou.treeQuestion._538" />
       <module name="Leetcode" />
@@ -81,8 +105,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liKou.test.testQueue" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liKou.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._117" />
+        <item itemvalue="Application.testQueue" />
         <item itemvalue="Application._102" />
         <item itemvalue="Application._106" />
         <item itemvalue="Application._538" />
@@ -111,6 +150,8 @@
       <workItem from="1601111652756" duration="4535000" />
       <workItem from="1601117599902" duration="57000" />
       <workItem from="1601205030478" duration="970000" />
+      <workItem from="1601218326381" duration="46000" />
+      <workItem from="1601282536045" duration="2659000" />
     </task>
     <task id="LOCAL-00001" summary="调整位置">
       <created>1600760646155</created>
@@ -168,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601117635378</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Tree">
+      <created>1601218349251</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601218349251</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,39 +242,55 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="340" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1218.720@0.0.1218.720" timestamp="1601106660950" />
-    <state x="217" y="0" key="CommitChangelistDialog2" timestamp="1601117634467">
+    <state x="217" y="0" key="CommitChangelistDialog2" timestamp="1601218348161">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="217" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1601117634467" />
-    <state x="351" y="75" key="FileChooserDialogImpl" timestamp="1601205041254">
+    <state x="217" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1601218348161" />
+    <state x="351" y="75" key="FileChooserDialogImpl" timestamp="1601283231077">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="298" y="64" key="FileChooserDialogImpl/0.0.1035.617@0.0.1035.617" timestamp="1598356489800" />
-    <state x="351" y="75" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1601205041254" />
-    <state width="1175" height="176" key="GridCell.Tab.0.bottom" timestamp="1601117523288">
+    <state x="351" y="75" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1601283231077" />
+    <state width="1175" height="220" key="GridCell.Tab.0.bottom" timestamp="1601285196593">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.0.bottom/0.0.1218.720@0.0.1218.720" timestamp="1601117523288" />
-    <state width="1175" height="176" key="GridCell.Tab.0.center" timestamp="1601117523288">
+    <state width="1175" height="220" key="GridCell.Tab.0.bottom/0.0.1218.720@0.0.1218.720" timestamp="1601285196593" />
+    <state width="1175" height="220" key="GridCell.Tab.0.center" timestamp="1601285196593">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.0.center/0.0.1218.720@0.0.1218.720" timestamp="1601117523288" />
-    <state width="1175" height="176" key="GridCell.Tab.0.left" timestamp="1601117523287">
+    <state width="1175" height="220" key="GridCell.Tab.0.center/0.0.1218.720@0.0.1218.720" timestamp="1601285196593" />
+    <state width="1175" height="220" key="GridCell.Tab.0.left" timestamp="1601285196593">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.0.left/0.0.1218.720@0.0.1218.720" timestamp="1601117523287" />
-    <state width="1175" height="176" key="GridCell.Tab.0.right" timestamp="1601117523288">
+    <state width="1175" height="220" key="GridCell.Tab.0.left/0.0.1218.720@0.0.1218.720" timestamp="1601285196593" />
+    <state width="1175" height="220" key="GridCell.Tab.0.right" timestamp="1601285196593">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state width="1175" height="176" key="GridCell.Tab.0.right/0.0.1218.720@0.0.1218.720" timestamp="1601117523288" />
+    <state width="1175" height="220" key="GridCell.Tab.0.right/0.0.1218.720@0.0.1218.720" timestamp="1601285196593" />
+    <state width="1175" height="220" key="GridCell.Tab.1.bottom" timestamp="1601285196593">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="220" key="GridCell.Tab.1.bottom/0.0.1218.720@0.0.1218.720" timestamp="1601285196593" />
+    <state width="1175" height="220" key="GridCell.Tab.1.center" timestamp="1601285196593">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="220" key="GridCell.Tab.1.center/0.0.1218.720@0.0.1218.720" timestamp="1601285196593" />
+    <state width="1175" height="220" key="GridCell.Tab.1.left" timestamp="1601285196593">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="220" key="GridCell.Tab.1.left/0.0.1218.720@0.0.1218.720" timestamp="1601285196593" />
+    <state width="1175" height="220" key="GridCell.Tab.1.right" timestamp="1601285196593">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state width="1175" height="220" key="GridCell.Tab.1.right/0.0.1218.720@0.0.1218.720" timestamp="1601285196593" />
     <state x="90" y="0" key="SettingsEditor" timestamp="1600760596728">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1600760596728" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1601117643986">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1601218359474">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1601117643986" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1601218359474" />
     <state x="93" y="93" width="1033" height="535" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1601106980604">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
@@ -235,10 +299,10 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="392" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1218.720@0.0.1218.720" timestamp="1600760844463" />
-    <state x="303" y="151" key="git4idea.merge.GitPullDialog" timestamp="1601106817321">
+    <state x="303" y="151" key="git4idea.merge.GitPullDialog" timestamp="1601218353347">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="303" y="151" key="git4idea.merge.GitPullDialog/0.0.1218.720@0.0.1218.720" timestamp="1601106817321" />
+    <state x="303" y="151" key="git4idea.merge.GitPullDialog/0.0.1218.720@0.0.1218.720" timestamp="1601218353347" />
     <state x="272" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1600773637467">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
