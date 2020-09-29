@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ad54a1f-a1fa-4e1f-a5c2-c4d014cb308f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liKou/test/testQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_117.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_145.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/liKou/dfs/_79.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/dfs/_79.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/liKou/hard/shortestPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/hard/shortestPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/liKou/kmp/olution.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/kmp/olution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/liKou/simple/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/simple/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/liKou/treeQuestion/_102.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/treeQuestion/_102.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/liKou/treeQuestion/_104.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/treeQuestion/_104.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/liKou/treeQuestion/_110.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/treeQuestion/_110.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/liKou/treeQuestion/_118.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/treeQuestion/_118.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/liKou/treeQuestion/_538.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/liKou/treeQuestion/_538.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +141,8 @@
       <workItem from="1601205030478" duration="970000" />
       <workItem from="1601218326381" duration="46000" />
       <workItem from="1601282536045" duration="2659000" />
+      <workItem from="1601307873945" duration="38000" />
+      <workItem from="1601376876002" duration="1162000" />
     </task>
     <task id="LOCAL-00001" summary="调整位置">
       <created>1600760646155</created>
@@ -216,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601218349251</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Tree">
+      <created>1601307886816</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601307886816</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,10 +240,10 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="340" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1218.720@0.0.1218.720" timestamp="1601106660950" />
-    <state x="217" y="0" key="CommitChangelistDialog2" timestamp="1601218348161">
+    <state x="217" y="0" key="CommitChangelistDialog2" timestamp="1601307885672">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="217" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1601218348161" />
+    <state x="217" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1601307885672" />
     <state x="351" y="75" key="FileChooserDialogImpl" timestamp="1601283231077">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
@@ -287,10 +285,10 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1600760596728" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1601218359474">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1601307892216">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1601218359474" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1601307892216" />
     <state x="93" y="93" width="1033" height="535" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1601106980604">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
