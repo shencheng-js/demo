@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0ad54a1f-a1fa-4e1f-a5c2-c4d014cb308f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/liKou/dp/_978.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/test/testInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/hard/_416.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/Leetcode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/liKou/test/testInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/liKou/test/testInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,31 +43,31 @@
   </component>
   <component name="ProjectId" id="1gad7aNCR5zXXPNCF2j4web7wat" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="添加" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.testInteger">
-    <configuration name="_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liKou.hard._18" />
+  <component name="RunManager" selected="Application._416">
+    <configuration name="_322" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liKou.dp._322" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liKou.hard.*" />
+          <option name="PATTERN" value="liKou.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_322" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liKou.dp._322" />
+    <configuration name="_416" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liKou.hard._416" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liKou.dp.*" />
+          <option name="PATTERN" value="liKou.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,14 +123,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._416" />
         <item itemvalue="Application.testInteger" />
         <item itemvalue="Application._474" />
         <item itemvalue="Application._322" />
         <item itemvalue="Application.repalce" />
-        <item itemvalue="Application._18" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
@@ -148,6 +168,9 @@
       <workItem from="1601951261570" duration="75000" />
       <workItem from="1601989304269" duration="6761000" />
       <workItem from="1602052369888" duration="1649000" />
+      <workItem from="1602345309830" duration="44000" />
+      <workItem from="1602382393263" duration="34000" />
+      <workItem from="1602387107129" duration="3528000" />
     </task>
     <task id="LOCAL-00001" summary="调整位置">
       <created>1600760646155</created>
@@ -251,7 +274,18 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="调整位置" />
@@ -267,6 +301,10 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1602345321209">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1602345321209" />
     <state x="340" y="116" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601812828608">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
@@ -292,22 +330,30 @@
     </state>
     <state x="298" y="64" key="FileChooserDialogImpl/0.0.1035.617@0.0.1035.617" timestamp="1598356489800" />
     <state x="351" y="75" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1601863318699" />
-    <state width="1175" height="176" key="GridCell.Tab.0.bottom" timestamp="1602054027634">
-      <screen x="0" y="0" width="1218" height="720" />
+    <state width="1157" height="147" key="GridCell.Tab.0.bottom" timestamp="1602390656268">
+      <screen x="0" y="0" width="1215" height="720" />
     </state>
+    <state width="1157" height="147" key="GridCell.Tab.0.bottom/0.0.1215.720@0.0.1215.720" timestamp="1602390656268" />
     <state width="1175" height="176" key="GridCell.Tab.0.bottom/0.0.1218.720@0.0.1218.720" timestamp="1602054027634" />
-    <state width="1175" height="176" key="GridCell.Tab.0.center" timestamp="1602054027634">
-      <screen x="0" y="0" width="1218" height="720" />
+    <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602345353358" />
+    <state width="1157" height="147" key="GridCell.Tab.0.center" timestamp="1602390656268">
+      <screen x="0" y="0" width="1215" height="720" />
     </state>
+    <state width="1157" height="147" key="GridCell.Tab.0.center/0.0.1215.720@0.0.1215.720" timestamp="1602390656268" />
     <state width="1175" height="176" key="GridCell.Tab.0.center/0.0.1218.720@0.0.1218.720" timestamp="1602054027634" />
-    <state width="1175" height="176" key="GridCell.Tab.0.left" timestamp="1602054027634">
-      <screen x="0" y="0" width="1218" height="720" />
+    <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602345353358" />
+    <state width="1157" height="147" key="GridCell.Tab.0.left" timestamp="1602390656267">
+      <screen x="0" y="0" width="1215" height="720" />
     </state>
+    <state width="1157" height="147" key="GridCell.Tab.0.left/0.0.1215.720@0.0.1215.720" timestamp="1602390656267" />
     <state width="1175" height="176" key="GridCell.Tab.0.left/0.0.1218.720@0.0.1218.720" timestamp="1602054027634" />
-    <state width="1175" height="176" key="GridCell.Tab.0.right" timestamp="1602054027634">
-      <screen x="0" y="0" width="1218" height="720" />
+    <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602345353358" />
+    <state width="1157" height="147" key="GridCell.Tab.0.right" timestamp="1602390656268">
+      <screen x="0" y="0" width="1215" height="720" />
     </state>
+    <state width="1157" height="147" key="GridCell.Tab.0.right/0.0.1215.720@0.0.1215.720" timestamp="1602390656268" />
     <state width="1175" height="176" key="GridCell.Tab.0.right/0.0.1218.720@0.0.1218.720" timestamp="1602054027634" />
+    <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602345353358" />
     <state width="1175" height="220" key="GridCell.Tab.1.bottom" timestamp="1601285196593">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
@@ -324,9 +370,10 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state width="1175" height="220" key="GridCell.Tab.1.right/0.0.1218.720@0.0.1218.720" timestamp="1601285196593" />
-    <state x="90" y="0" key="SettingsEditor" timestamp="1602054026261">
-      <screen x="0" y="0" width="1218" height="720" />
+    <state x="90" y="0" key="SettingsEditor" timestamp="1602387666755">
+      <screen x="0" y="0" width="1215" height="720" />
     </state>
+    <state x="90" y="0" key="SettingsEditor/0.0.1215.720@0.0.1215.720" timestamp="1602387666755" />
     <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1602054026261" />
     <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1601996332090">
       <screen x="0" y="0" width="1218" height="720" />
