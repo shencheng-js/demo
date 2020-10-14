@@ -5,10 +5,11 @@ package liKou.treeQuestion;
  * @date 2020/9/26
  **/
 public class ListNode {
+    public ListNode next;
     int val;
-    ListNode next;
+//    ListNode next;
 
-    ListNode() {
+    public ListNode() {
     }
 
     ListNode(int val) {

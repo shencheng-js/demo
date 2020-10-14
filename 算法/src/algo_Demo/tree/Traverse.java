@@ -1,7 +1,7 @@
 package algo_Demo.tree;
 
 import java.util.*;
-
+import
 /**
  * @author sc
  * @date 2020/9/16
@@ -68,8 +68,6 @@ public class Traverse {
         while (!stack.isEmpty()) {
             TreeNode temp = stack.pop();
             ret.add(temp.val);
-
-
             if (temp.left != null) {
                 stack.push(temp.left);
             }

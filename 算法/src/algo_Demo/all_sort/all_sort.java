@@ -1,6 +1,9 @@
 package algo_Demo.all_sort;
 
 import java.io.IOException;
+import java.sql.Time;
+import java.util.Date;
+import java.util.Timer;
 import java.util.Vector;
 
 public class all_sort {
@@ -10,24 +13,24 @@ public class all_sort {
         Vector<Character> source = new Vector<Character>();
         Vector<Character> result = new Vector<Character>();
 
-        String temp = "erda";
+        String temp = "1234567890";
         char[] chars = temp.toCharArray();
 
         for (int i = 0; i < chars.length; i++) {
             source.add(chars[i]);
         }
 
+        sort(source,result);
 
-        //sort(source,result);
-        //System.out.println(count);
+        System.out.println(count);
         System.out.println("GOOD BYE~~~");
     }
 
 
     public static void sort(Vector source, Vector result) {
         if (source.size() == 0) {
-            print(result);
-            //count++;
+//            print(result);
+            count++;
         } else {
             for (int i = 0; i < source.size(); i++) {
                 Vector<Character> tsource = new Vector<Character>(source);
@@ -45,7 +48,7 @@ public class all_sort {
         for (int i = 0; i < result.size(); i++) {
             temp.append(result.elementAt(i));
         }
-//       System.out.println(temp);
+       System.out.println(temp);
 
         return;
     }
