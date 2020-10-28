@@ -20,14 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ad54a1f-a1fa-4e1f-a5c2-c4d014cb308f" name="默认更改列表" comment="、">
-      <change afterPath="$PROJECT_DIR$/src/BlueB/_testsort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BlueB/all_sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/medium/_547.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/medium/erfen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/simple/_977.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/simple/_stone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/simple/lc_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_116.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/hard/_140.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/medium/_139.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/test/testlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/test/testsubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/treeQuestion/_129.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +52,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -66,13 +64,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application._testsort">
-    <configuration name="_977" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liKou.simple._977" />
+  <component name="RunManager" selected="Application._140">
+    <configuration name="_129" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liKou.treeQuestion._129" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liKou.simple.*" />
+          <option name="PATTERN" value="liKou.treeQuestion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,34 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_testsort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BlueB._testsort" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BlueB.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="all_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BlueB.all_sort" />
-      <module name="Leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BlueB.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="erfen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liKou.medium.erfen" />
+    <configuration name="_139" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liKou.medium._139" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
@@ -119,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="liKou.simple.lc_3" />
+    <configuration name="_140" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liKou.hard._140" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="liKou.simple.*" />
+          <option name="PATTERN" value="liKou.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,13 +104,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liKou.test.testlist" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liKou.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testsubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liKou.test.testsubstring" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="liKou.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._testsort" />
-        <item itemvalue="Application.all_sort" />
-        <item itemvalue="Application._977" />
-        <item itemvalue="Application.erfen" />
-        <item itemvalue="Application.lc_3" />
+        <item itemvalue="Application._140" />
+        <item itemvalue="Application._139" />
+        <item itemvalue="Application.testsubstring" />
+        <item itemvalue="Application._129" />
+        <item itemvalue="Application.testlist" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +206,23 @@
       <workItem from="1602759600541" duration="4215000" />
       <workItem from="1602818405175" duration="1542000" />
       <workItem from="1602844854032" duration="1987000" />
+      <workItem from="1602853947975" duration="89000" />
+      <workItem from="1602988358478" duration="1358000" />
+      <workItem from="1603073963632" duration="1600000" />
+      <workItem from="1603119128511" duration="637000" />
+      <workItem from="1603120082946" duration="283000" />
+      <workItem from="1603161073079" duration="2927000" />
+      <workItem from="1603365925487" duration="2590000" />
+      <workItem from="1603426895694" duration="1604000" />
+      <workItem from="1603512327104" duration="1594000" />
+      <workItem from="1603543573657" duration="280000" />
+      <workItem from="1603589802334" duration="3158000" />
+      <workItem from="1603676945558" duration="213000" />
+      <workItem from="1603677476142" duration="429000" />
+      <workItem from="1603763555642" duration="1492000" />
+      <workItem from="1603851929652" duration="1712000" />
+      <workItem from="1603942221965" duration="1215000" />
+      <workItem from="1604195014286" duration="5592000" />
     </task>
     <task id="LOCAL-00001" summary="调整位置">
       <created>1600760646155</created>
@@ -310,7 +336,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602682138927</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="、">
+      <created>1602854014395</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602854014395</updated>
+    </task>
+    <task id="LOCAL-00018" summary="、">
+      <created>1603854641736</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603854641736</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +388,10 @@
       <screen x="0" y="0" width="1215" height="720" />
     </state>
     <state x="345" y="184" key="#Notifications/0.0.1215.720@0.0.1215.720" timestamp="1602844889518" />
+    <state x="201" y="2" key="#Plugins" timestamp="1603513222795">
+      <screen x="0" y="0" width="1215" height="720" />
+    </state>
+    <state x="201" y="2" key="#Plugins/0.0.1215.720@0.0.1215.720" timestamp="1603513222795" />
     <state x="121" y="0" key="#Project_Structure" timestamp="1602345321209">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -356,6 +400,10 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="340" y="116" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1218.720@0.0.1218.720" timestamp="1601812828608" />
+    <state x="201" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603543788846">
+      <screen x="0" y="0" width="1215" height="720" />
+    </state>
+    <state x="201" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1215.720@0.0.1215.720" timestamp="1603543788846" />
     <state x="370" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602557915697">
       <screen x="0" y="0" width="1215" height="720" />
     </state>
@@ -382,28 +430,28 @@
     <state x="298" y="64" key="FileChooserDialogImpl/0.0.1035.617@0.0.1035.617" timestamp="1598356489800" />
     <state x="350" y="75" key="FileChooserDialogImpl/0.0.1215.720@0.0.1215.720" timestamp="1602592883424" />
     <state x="351" y="75" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1601863318699" />
-    <state width="1172" height="147" key="GridCell.Tab.0.bottom" timestamp="1602846894974">
+    <state width="1172" height="147" key="GridCell.Tab.0.bottom" timestamp="1604200519094">
       <screen x="0" y="0" width="1215" height="720" />
     </state>
-    <state width="1172" height="147" key="GridCell.Tab.0.bottom/0.0.1215.720@0.0.1215.720" timestamp="1602846894974" />
+    <state width="1172" height="147" key="GridCell.Tab.0.bottom/0.0.1215.720@0.0.1215.720" timestamp="1604200519094" />
     <state width="1175" height="176" key="GridCell.Tab.0.bottom/0.0.1218.720@0.0.1218.720" timestamp="1602054027634" />
     <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602345353358" />
-    <state width="1172" height="147" key="GridCell.Tab.0.center" timestamp="1602846894974">
+    <state width="1172" height="147" key="GridCell.Tab.0.center" timestamp="1604200519094">
       <screen x="0" y="0" width="1215" height="720" />
     </state>
-    <state width="1172" height="147" key="GridCell.Tab.0.center/0.0.1215.720@0.0.1215.720" timestamp="1602846894974" />
+    <state width="1172" height="147" key="GridCell.Tab.0.center/0.0.1215.720@0.0.1215.720" timestamp="1604200519094" />
     <state width="1175" height="176" key="GridCell.Tab.0.center/0.0.1218.720@0.0.1218.720" timestamp="1602054027634" />
     <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602345353358" />
-    <state width="1172" height="147" key="GridCell.Tab.0.left" timestamp="1602846894974">
+    <state width="1172" height="147" key="GridCell.Tab.0.left" timestamp="1604200519094">
       <screen x="0" y="0" width="1215" height="720" />
     </state>
-    <state width="1172" height="147" key="GridCell.Tab.0.left/0.0.1215.720@0.0.1215.720" timestamp="1602846894974" />
+    <state width="1172" height="147" key="GridCell.Tab.0.left/0.0.1215.720@0.0.1215.720" timestamp="1604200519094" />
     <state width="1175" height="176" key="GridCell.Tab.0.left/0.0.1218.720@0.0.1218.720" timestamp="1602054027634" />
     <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602345353358" />
-    <state width="1172" height="147" key="GridCell.Tab.0.right" timestamp="1602846894974">
+    <state width="1172" height="147" key="GridCell.Tab.0.right" timestamp="1604200519094">
       <screen x="0" y="0" width="1215" height="720" />
     </state>
-    <state width="1172" height="147" key="GridCell.Tab.0.right/0.0.1215.720@0.0.1215.720" timestamp="1602846894974" />
+    <state width="1172" height="147" key="GridCell.Tab.0.right/0.0.1215.720@0.0.1215.720" timestamp="1604200519094" />
     <state width="1175" height="176" key="GridCell.Tab.0.right/0.0.1218.720@0.0.1218.720" timestamp="1602054027634" />
     <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602345353358" />
     <state width="1172" height="220" key="GridCell.Tab.1.bottom" timestamp="1602754217521">
@@ -426,15 +474,15 @@
     </state>
     <state width="1172" height="220" key="GridCell.Tab.1.right/0.0.1215.720@0.0.1215.720" timestamp="1602754217521" />
     <state width="1175" height="220" key="GridCell.Tab.1.right/0.0.1218.720@0.0.1218.720" timestamp="1601285196593" />
-    <state x="90" y="0" key="SettingsEditor" timestamp="1602387666755">
+    <state x="178" y="0" key="SettingsEditor" timestamp="1603677880229">
       <screen x="0" y="0" width="1215" height="720" />
     </state>
-    <state x="90" y="0" key="SettingsEditor/0.0.1215.720@0.0.1215.720" timestamp="1602387666755" />
+    <state x="178" y="0" key="SettingsEditor/0.0.1215.720@0.0.1215.720" timestamp="1603677880229" />
     <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1602054026261" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1602682149022">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1603854648132">
       <screen x="0" y="0" width="1215" height="720" />
     </state>
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1215.720@0.0.1215.720" timestamp="1602682149022" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1215.720@0.0.1215.720" timestamp="1603854648132" />
     <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1601996332090" />
     <state x="93" y="93" width="1033" height="535" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1601106980604">
       <screen x="0" y="0" width="1218" height="720" />
@@ -460,6 +508,10 @@
       <screen x="0" y="0" width="1215" height="720" />
     </state>
     <state x="93" y="93" width="1030" height="535" key="dock-window-1/0.0.1215.720@0.0.1215.720" timestamp="1602671497861" />
+    <state x="463" y="0" width="603" height="720" key="find.popup" timestamp="1602988374099">
+      <screen x="0" y="0" width="1215" height="720" />
+    </state>
+    <state x="463" y="0" width="603" height="720" key="find.popup/0.0.1215.720@0.0.1215.720" timestamp="1602988374099" />
     <state x="303" y="151" key="git4idea.merge.GitPullDialog" timestamp="1601813175658">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
