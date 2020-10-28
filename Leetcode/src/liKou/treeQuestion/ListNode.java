@@ -6,13 +6,13 @@ package liKou.treeQuestion;
  **/
 public class ListNode {
     public ListNode next;
-    int val;
+    public int val;
 //    ListNode next;
 
     public ListNode() {
     }
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 
