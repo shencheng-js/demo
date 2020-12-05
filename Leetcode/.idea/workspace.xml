@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ad54a1f-a1fa-4e1f-a5c2-c4d014cb308f" name="默认更改列表" comment="、">
-      <change afterPath="$PROJECT_DIR$/src/liKou/hard/_321.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/liKou/simple/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +60,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application._321">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="liKou.simple.Main" />
       <module name="Leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="liKou.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,26 +126,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application._321" />
         <item itemvalue="Application._34" />
         <item itemvalue="Application._976" />
         <item itemvalue="Application.hello" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +213,8 @@
       <workItem from="1605404592134" duration="1361000" />
       <workItem from="1606619573596" duration="1424000" />
       <workItem from="1606811686420" duration="3177000" />
-      <workItem from="1606890046960" duration="3585000" />
+      <workItem from="1606890046960" duration="3893000" />
+      <workItem from="1607179544365" duration="1282000" />
     </task>
     <task id="LOCAL-00001" summary="调整位置">
       <created>1600760646155</created>
@@ -343,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606815519335</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="、">
+      <created>1606894623613</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606894623613</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,31 +418,30 @@
     <state x="350" y="75" key="FileChooserDialogImpl" timestamp="1604382715951">
       <screen x="0" y="0" width="1215" height="720" />
     </state>
-    <state x="298" y="64" key="FileChooserDialogImpl/0.0.1035.617@0.0.1035.617" timestamp="1598356489800" />
     <state x="350" y="75" key="FileChooserDialogImpl/0.0.1215.720@0.0.1215.720" timestamp="1604382715951" />
     <state x="351" y="75" key="FileChooserDialogImpl/0.0.1218.720@0.0.1218.720" timestamp="1601863318699" />
-    <state width="1172" height="232" key="GridCell.Tab.0.bottom" timestamp="1606893825526">
+    <state width="1172" height="232" key="GridCell.Tab.0.bottom" timestamp="1607180223781">
       <screen x="0" y="0" width="1215" height="720" />
     </state>
-    <state width="1172" height="232" key="GridCell.Tab.0.bottom/0.0.1215.720@0.0.1215.720" timestamp="1606893825526" />
+    <state width="1172" height="232" key="GridCell.Tab.0.bottom/0.0.1215.720@0.0.1215.720" timestamp="1607180223781" />
     <state width="1175" height="176" key="GridCell.Tab.0.bottom/0.0.1218.720@0.0.1218.720" timestamp="1602054027634" />
     <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602345353358" />
-    <state width="1172" height="232" key="GridCell.Tab.0.center" timestamp="1606893825526">
+    <state width="1172" height="232" key="GridCell.Tab.0.center" timestamp="1607180223781">
       <screen x="0" y="0" width="1215" height="720" />
     </state>
-    <state width="1172" height="232" key="GridCell.Tab.0.center/0.0.1215.720@0.0.1215.720" timestamp="1606893825526" />
+    <state width="1172" height="232" key="GridCell.Tab.0.center/0.0.1215.720@0.0.1215.720" timestamp="1607180223781" />
     <state width="1175" height="176" key="GridCell.Tab.0.center/0.0.1218.720@0.0.1218.720" timestamp="1602054027634" />
     <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602345353358" />
-    <state width="1172" height="232" key="GridCell.Tab.0.left" timestamp="1606893825526">
+    <state width="1172" height="232" key="GridCell.Tab.0.left" timestamp="1607180223780">
       <screen x="0" y="0" width="1215" height="720" />
     </state>
-    <state width="1172" height="232" key="GridCell.Tab.0.left/0.0.1215.720@0.0.1215.720" timestamp="1606893825526" />
+    <state width="1172" height="232" key="GridCell.Tab.0.left/0.0.1215.720@0.0.1215.720" timestamp="1607180223780" />
     <state width="1175" height="176" key="GridCell.Tab.0.left/0.0.1218.720@0.0.1218.720" timestamp="1602054027634" />
     <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602345353358" />
-    <state width="1172" height="232" key="GridCell.Tab.0.right" timestamp="1606893825526">
+    <state width="1172" height="232" key="GridCell.Tab.0.right" timestamp="1607180223781">
       <screen x="0" y="0" width="1215" height="720" />
     </state>
-    <state width="1172" height="232" key="GridCell.Tab.0.right/0.0.1215.720@0.0.1215.720" timestamp="1606893825526" />
+    <state width="1172" height="232" key="GridCell.Tab.0.right/0.0.1215.720@0.0.1215.720" timestamp="1607180223781" />
     <state width="1175" height="176" key="GridCell.Tab.0.right/0.0.1218.720@0.0.1218.720" timestamp="1602054027634" />
     <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602345353358" />
     <state width="1172" height="220" key="GridCell.Tab.1.bottom" timestamp="1602754217521">
@@ -464,10 +469,10 @@
     </state>
     <state x="90" y="0" key="SettingsEditor/0.0.1215.720@0.0.1215.720" timestamp="1602387666755" />
     <state x="90" y="0" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1602054026261" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1606815522410">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1606894639715">
       <screen x="0" y="0" width="1215" height="720" />
     </state>
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1215.720@0.0.1215.720" timestamp="1606815522410" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1215.720@0.0.1215.720" timestamp="1606894639715" />
     <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1601996332090" />
     <state x="93" y="93" width="1033" height="535" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1601106980604">
       <screen x="0" y="0" width="1218" height="720" />
